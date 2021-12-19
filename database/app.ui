@@ -106,10 +106,12 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">pics</string>
+     <string notr="true">border-radious:10px;
+background-color: rgb(0, 85, 0);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Push</string>
     </property>
    </widget>
    <widget class="QLabel" name="statusMessage">
@@ -124,6 +126,9 @@
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Status message&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="heroImage">
     <property name="geometry">
@@ -134,11 +139,15 @@
       <height>281</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border-radious:10px;
+</string>
+    </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../Pictures/wp7656893-x-men-for-desktop-wallpapers.jpg</pixmap>
+     <pixmap>../Pictures_or_logo/—Pngtree—black quill feather pen with_5157648.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
